@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="type">
+        <item>Admin</item>
+        <item>Chef</item>
+        <item>Agent</item>
+    </string-array>
+    <string-array name="done">
+        <item>Done</item>
+        <item>Partial</item>
+        <item>Impossible</item>
+    </string-array>
+</resources>

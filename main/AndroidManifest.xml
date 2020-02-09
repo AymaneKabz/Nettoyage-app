@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.belatarr">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/broom"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/broom"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        android:windowSoftInputMode="adjustNothing">
+        <activity android:name=".ResertPasswordActivity" />
+        <activity android:name=".AddTaskActivity" />
+        <activity android:name=".FingerPrintActivity" />
+        <activity android:name=".UpdateUser" />
+        <activity android:name=".UsernameDescription" />
+        <activity android:name=".TaskDescription" />
+        <activity android:name=".TasksUserActivity" />
+        <activity android:name=".UsersListAdminActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".ChefActivity" />
+        <activity android:name=".UserActivity" />
+        <activity android:name=".AdminActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
